@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ネトフリクス-NETOFLIX</title>
+    <link rel="shortcut icon" href="/assets/favicon.svg" type="image/x-icon">
+  </head>
+
+  <body class="bg-dark">
+    <nav class="navbar ">
+      <div class="container">
+        <a class="navbar-brand text-light fs-1 fw-bold" href="index.html">ネトフリクス-NETOFLIX</a>
+      </div>
+    </nav>
+
+    <div class="container d-grip gap-3 y-4">
+      <div class="row ">
+        <div class="d-flex align-items-center">
+          <a class="fs-3 link-warning text-decoration-none" id="titulo-filme"></a>
+          <div class="ms-auto text-end">
+            <i class="'bi bi-heart fs-3 text.warning align-items-center"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="row gap-3">
+        <div class="col-lg-3">
+          <img class="img-fluid rounded-3" id="poster-filme">
+        </div>
+        <div class="col-lg">
+          <div class="ratio ratio-21x9 h-100">
+            <iframe class="rounded-3" id="iFrameTrailer" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex m-3 gap-2 mx-lg-0" id="div-generos">
+        <span class="badge rounded-pill fs-7 px-2 py-2 bg-black text-dark " id="primeiro-genero"></span>
+      </div>
+
+      <div class="row border-top">
+        <h5 class="f-5 text-light align-items-justify" id="sinopse-filme"></h5>
+      </div>
+      
+      <div class="row border-top">
+        <div class="col-lg-1 align-items-center">
+          <h5 class="f-5 text-light fw-bolder">Direção:</h5>
+        </div>
+        <div class="col-lg-3 d-flex" id="div-direcao"></div>
+      </div>
+
+      <div class="row border-top d-flex" id="div-elenco">
+        <div class="col-lg-1">
+          <h5 class="f-5 text-light fw-bolder">Elenco:</h5>
+        </div>
+        <div class="col-lg-1 d-flex" id="nomes-elenco-filme"></div>
+      </div>
+    </div>
+    
+  </body>
+
+</html>
